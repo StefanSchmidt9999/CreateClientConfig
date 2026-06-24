@@ -8,7 +8,7 @@ int main()
     
 	std::wcout << L"Hallo" << std::endl;
 
-    std::wstring clientId = L"CPP-CLIENT-002";// L"CPP-CLIENT-001";
+    std::wstring clientId = L"CPP-CLIENT-001";// L"CPP-CLIENT-001";
 
     DATA_BLOB inputBlob;
     inputBlob.pbData = reinterpret_cast<BYTE*>(const_cast<wchar_t*>(clientId.c_str()));
